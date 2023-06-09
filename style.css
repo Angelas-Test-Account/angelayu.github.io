@@ -1,0 +1,165 @@
+/* ======================================
+Responsive Image gallery Style rules
+======================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h2 {
+    font-size: 48px;
+    margin: 0;
+  }
+
+   p {
+  font-size: 24px;
+  margin: 20px 0;
+   }
+
+  .container {
+    text-align: center;
+    color: #fff;
+   
+    }
+
+  
+  .heading-text {
+    /* margin-bottom: 10rem; */
+    font-size: 10rem;
+  }
+  
+  
+  /* Responsive image gallery rules begin*/
+  
+  .image-gallery {
+    /* Mobile first */
+    display: flex;
+    flex-direction: column;
+    /* gap: 10px; */
+    padding-bottom: 10px;
+  }
+  
+  .image-gallery .row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+   }
+  
+  .image-item img {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  /* Hero Styles */
+  #teach {   
+      background:
+      /* top, transparent black, faked with gradient */ 
+      linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),
+      /* bottom, image */
+      url('i\ teach.jpg');
+      background-size: cover;
+      height: 700px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      /* Set a specific height */
+      min-height: 600px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+
+  #speak {   
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.4), 
+      rgba(0, 0, 0, 0.4)
+    ),
+    /* bottom, image */
+    url('i\ speak.jpg');
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Set a specific height */
+    min-height: 600px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#surf {   
+  background:
+  /* top, transparent black, faked with gradient */ 
+  linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ),
+  /* bottom, image */
+  url('i\ surf.jpg  ');
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#eat {   
+  background:
+  /* top, transparent black, faked with gradient */ 
+  linear-gradient(
+    rgba(0, 0, 0, 0.4), 
+    rgba(0, 0, 0, 0.4)
+  ),
+  /* bottom, image */
+  url('i\ eat.jpg');
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+  
